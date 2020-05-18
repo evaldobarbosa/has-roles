@@ -1,0 +1,17 @@
+{
+    "name": "evaldobarbosa/has-roles",
+    "description": "A tiny authorization package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evaldo Barbosa",
+            "email": "evaldobarbosa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HasRoles\\": "src/"
+        }
+    }
+}
