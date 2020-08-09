@@ -14,6 +14,10 @@ trait HasRole
 
   public function hasRole($rolename)
   {
+    if (isset($this->getRoleFieldAttribute()[$rolename])) {
+      return true;
+    }
+    
     if (isset($this->getRoleFieldAttribute()['is'][$rolename])) {
       return true;
     }
